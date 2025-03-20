@@ -1,6 +1,10 @@
 export const doc1 = {
-    title: "Pehla document about politics",
-    text: `
+    id: "doc1",
+    metadata: {
+        category: "politics",
+        id: "doc1"
+    },
+    pageContent: `
 Politics is an intricate and multifaceted domain that encompasses the processes, structures, and activities through which power and authority are distributed and exercised within a society. It is a field that not only shapes governance and public policy but also influences the very fabric of social interactions and cultural norms. This essay aims to explore the various dimensions of politics, including its definitions, historical evolution, theoretical frameworks, and contemporary issues, while also examining the interplay between politics and other societal elements such as economics, culture, and technology. By delving into these aspects, we can gain a deeper understanding of how politics operates and its significance in our daily lives.
 
 Defining Politics
@@ -72,8 +76,12 @@ The essay addresses several contemporary political issues, including climate cha
 
 
 export const doc2 = {
-    title: "Dusra document About Sports",
-    text: `Sports have been an integral part of human culture for centuries, serving not only as a means of physical exercise but also as a source of entertainment, social interaction, and cultural identity. The diversity of sports is vast, encompassing a wide range of activities that vary in rules, equipment, and objectives. This essay aims to explore the various types of sports, categorizing them based on different criteria such as team versus individual sports, contact versus non-contact sports, and traditional versus modern sports. Through this exploration, we will gain a deeper understanding of the significance of sports in society and the various forms they take across the globe.
+    id: "doc2",
+    metadata: {
+        category: "sports",
+        id: "doc2"
+    },
+    pageContent: `Sports have been an integral part of human culture for centuries, serving not only as a means of physical exercise but also as a source of entertainment, social interaction, and cultural identity. The diversity of sports is vast, encompassing a wide range of activities that vary in rules, equipment, and objectives. This essay aims to explore the various types of sports, categorizing them based on different criteria such as team versus individual sports, contact versus non-contact sports, and traditional versus modern sports. Through this exploration, we will gain a deeper understanding of the significance of sports in society and the various forms they take across the globe.
 
 1. Classification of Sports
 Sports can be classified in numerous ways, each providing a unique perspective on the nature of the activity. The most common classifications include:
@@ -159,8 +167,12 @@ Cultural differences significantly influence sports participation by shaping pre
 
 
 export const doc3 = {
-    title: "Teesra document about Art",
-    text: `Art, in its myriad forms, serves as a powerful lens through which we can explore human experience, culture, and the world around us, offering both solace and challenge, beauty and critique. This essay will delve into the multifaceted nature of art, examining its purpose, impact, and the diverse ways it shapes our understanding of the world.
+    id: "doc3",
+    metadata: {
+        category: "art",
+        id: "doc3"
+    },
+    pageContent: `Art, in its myriad forms, serves as a powerful lens through which we can explore human experience, culture, and the world around us, offering both solace and challenge, beauty and critique. This essay will delve into the multifaceted nature of art, examining its purpose, impact, and the diverse ways it shapes our understanding of the world.
 The Purpose and Function of Art
 Art's purpose is as varied as the artists who create it, and the audiences who engage with it. For some, art is a means of expressing emotions, ideas, and experiences that words cannot adequately convey. It can be a cathartic release, a way to explore the depths of the human psyche, or a tool for social commentary and activism. 
 Emotional Expression:
